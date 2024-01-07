@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F4A127;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.zone_one, .zone_two, .zone_three {
+  width: 400px;
+  height: 350px;
+  border: 6px solid rgb(0, 0, 0);
+  background-color: #E6C15C;
+  border-radius: 1%;
+  margin-top: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.ufo {
+  height: 200px;
+  width: auto;
+  margin-top: 50px;
+}
+
+.zone_two {
+  background-color: #758C32;
+}
+
+.zone_three {
+  border: none;
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */
